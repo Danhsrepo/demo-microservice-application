@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    consumer:
+      group-id: g1-loggers
+      auto-offset-reset: earliest
+      bootstrap-servers: localhost:9222
+g1:
+  topic-name: advice-topic
+  messages-per-request: 10
+
+
